@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles.css" class="">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Recursive:wght@300..1000&display=swap" rel="stylesheet">
+
+<title>Sailor's Paradise Restaurant</title>
+</head>
+<body>
+  <div class="topnav">
+    <a href="" class="active">Sailor's Paradise Restaurant</a>
+    
+    <div id="myLinks">
+      <a href="#about">About Us</a>
+      <a href="#menu">Our Menu</a>
+      <a href="#meetourchefs">Meet Our Chefs!</a>
+      <a href="#contact">Contact Us</a>
+      <a href="#locate">Locate</a>
+    </div>
+    
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+ 
+  <header class="header">
+    <div class="carousel" id="home">
+      
+      <div class="list">
+          <div class="item">
+              <img src="images/restaurant1.webp" alt="Outside Of Restaurant View">
+              <div class="content">
+                  <div class="author">Food Critic</div>
+                  <div class="person">Jay Rayner says,</div>
+                  <div class="topic">"Wonderful..</div>
+                  <div class="des">
+                      Every part of my experience at the Sailor's Paradise was magical. I wish I could come back tomorrow! "
+                  </div>
+                  <div class="buttons">
+                    <a href="https://www.yelp.com/search?cflt=restaurants&find_loc=San+Francisco%2C+CA%2C+US" target="_blank" class="buttonlink"><button>See More</button></a>
+                      <a href="https://en.wikipedia.org/wiki/Jay_Rayner" class="buttonlink"><button>Who?</button></a>
+                  </div>
+              </div>
+          </div>
+          <div class="item">
+              <img src="images/restaurant2.webp" alt="Dinner Guests Enjoying Dinner With Wine">
+              <div class="content">
+                  <div class="title">Renowned Chef</div>
+                  <div class="person">Gordon ramsey says,</div>
+                  <div class="topic">"Perfection..</div>
+                  <div class="des">
+                      From the warm and pleasant staff to the freshly made food served in a timely manner... phenomenal."
+                  </div>
+                  <div class="buttons">
+                    <a href="https://www.yelp.com/search?cflt=restaurants&find_loc=San+Francisco%2C+CA%2C+US" target="_blank" class="buttonlink"><button>See More</button></a>
+                      <a href="https://en.wikipedia.org/wiki/Gordon_Ramsay" target="_blank" class="buttonlink"><button>Who?</button></a>
+                  </div>
+              </div>
+          </div>
+          <div class="item">
+              <img src="images/restaurant3.webp" alt="Close-up Picture of a Perfectly Cooked Piece of Chicken">
+              <div class="content">
+                  <div class="title">renowned chef</div>
+                  <div class="person">Bobby Flay says,</div>
+                  <div class="topic">"Impeccable..</div>
+                  <div class="des">
+                      This place makes my food seem normal, and that's a huge compliment."
+                  </div>
+                  <div class="buttons">
+                    <a href="https://www.yelp.com/search?cflt=restaurants&find_loc=San+Francisco%2C+CA%2C+US" target="_blank" class="buttonlink"><button>See More</button></a>
+                      <a href="https://en.wikipedia.org/wiki/Bobby_Flay" class="buttonlink"><button>Who?</button></a>
+                  </div>
+              </div>
+          </div>
+          <div class="item">
+              <img src="images/restaurant3.jpg" alt="Picture of a Few Plates on the Counter Awaiting Departure to Their Respective Tables">
+              <div class="content">
+                  <div class="title">Food Journalist</div>
+                  <div class="person">Mark Bittman says,</div>
+                  <div class="topic">"Marvelous..</div>
+                  <div class="des">
+                      The food was perfectly cooked, and super tasty. Loved watching the waves during my meal."
+                  </div>
+                  <div class="buttons">
+                    <a href="https://www.yelp.com/search?cflt=restaurants&find_loc=San+Francisco%2C+CA%2C+US" target="_blank" class="buttonlink"><button>See More</button></a>
+                    <a href="https://en.wikipedia.org/wiki/Mark_Bittman" class="buttonlink"><button>Who?</button></a>
+                  </div>
+              </div>
+          </div>
+      </div>
+      
+      <div class="thumbnail">
+          <div class="item">
+              <img src="images/restaurant1.webp" alt="Outside Of Restaurant View of Ocean">
+          </div>
+          <div class="item">
+              <img src="images/restaurant2.webp" alt="Dinner Guests Enjoying Food With Wine" >
+          </div>
+          <div class="item">
+              <img src="images/restaurant3.webp" alt="Close-up Picture of a Perfectly Cooked Piece of Chicken">
+          </div>
+          <div class="item">
+              <img src="images/restaurant3.jpg" alt="Picture of a Few Plates on the Counter Awaiting Departure to Their Respective Tables">
+          </div>
+      </div>
+      
+
+      <div class="arrows">
+          <button id="prev"><</button>
+          <button id="next">></button>
+      </div>
+      
+      <div class="time"></div>
+  </div>
+
+
+<img src="images/ingredients.webp" class="ingred-img" alt="Image of Fresh Vegetables Scattered Along Table">
+
+    
+<div id="about">
+      <h1 class="about sectiontitle">About Us</h1>
+      <div class="aboutcont">
+        <p class="about-body">Founder, Nicholas O'Neill, has always dreamed of starting a business with his wife, Nicole.
+          They had dreamed of starting a restaurant together. The two things Nick and Nicole loved the most
+          were cooking and the ocean. This restaurant represents exactly what they both love the most in this world. 
+            
+        </p>
+      </div>
+</div>
+    
+ <img src="images/ingredients2.jpg" class="ingred-img" alt="Image of Italian Ingredients Scattered Along Table">
+  <h1 class="menutitle sectiontitle" id="menu">Our Menu</h1>
+  <section class="our-menu" > 
+    <div class="menu">
+      <h2 class="menu-group-heading">
+        Appetizers
+      </h2>
+      <div class="menu-group">
+        <div class="menu-item">
+          <img
+            src="images/garlicknots.jpg"
+            alt="Garlic Knots Image"
+            class="menu-item-img"
+          />
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-name">
+                Garlic Knots
+              </span>
+              <span class="menu-item-price">
+                $10.50
+              </span>
+            </h3>
+            <p class="menu-item-desc">
+              Hand twisted pizza dough tossed with fresh garlic , house seasoning and olive oil.
+            </p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img
+            src="images/spicycalamari.jpg"
+            alt="Spicy Calamari Image"
+            class="menu-item-img"
+          />
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-name">
+                Spicy Calamari
+              </span>
+              <span class="menu-item-price">$13.50</span>
+            </h3>
+            <p class="menu-item-desc">
+              Lightly coated in our house seasoned flour and flash fried to a golden brown perfection and tossed with hot cherry pepper and hot sauce. Served with blue cheese dressing.
+          </div>
+        </div>
+        <div class="menu-item">
+          <img
+            src="images/broccolirabe.jpg"
+            alt="Broccoli Rabe Image"
+            class="menu-item-img"
+          />
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-name">
+                Sauteed Broccoli Rabe
+              </span>
+              <span class="menu-item-price">
+                $10.50
+              </span>
+            </h3>
+            <p class="menu-item-desc">
+              Broccoli Rabe tossed in our special sauce that is filled with a symphony of delicious flavors.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu" id="menu">
+      <h2 class="menu-group-heading">
+        Main Course
+      </h2>
+      <div class="menu-group">
+        <div class="menu-item">
+          <img
+            src="images/chickenparm.jpg"
+            alt="Chicken Parmesan Image"
+            class="menu-item-img"
+          />
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-name">
+                Chicken Parmesan
+              </span>
+              <span class="menu-item-price">
+                $16.90
+              </span>
+            </h3>
+            <p class="menu-item-desc">
+              Perfectly cooked chicken cutlet topped with Melted parmesan cheese and our signature marinara sauce. (served with spaghetti or penne)
+            </p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img
+            src="images/ravioliandshrimp.jpg"
+            alt="Blush Ravioli and Shrimp Image"
+            class="menu-item-img"
+          />
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-name">
+                Blush Ravioli With Shrimp
+              </span>
+              <span class="menu-item-price">
+                $18.90
+              </span>
+            </h3>
+            <p class="menu-item-desc">
+              Cheese Ravioli with Jumbo shrimp in a Blush sauce
+            </p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img
+            src="images/ziti.jpg"
+            alt="Classic Baked Ziti Image"
+            class="menu-item-img"
+          />
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-name">
+                Classic Baked Ziti
+              </span>
+              <span class="menu-item-price">
+                $15.90
+              </span>
+            </h3>
+            <p class="menu-item-desc">
+              Penne tossed with ricotta cheese, tomato sauce topped with mozzarella cheese.
+            </p>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+  </section>
+  <img src="images/ingredients3.jpg" alt="" class="ingred-img">
+
+  <div id="meetourchefs">
+    <h1 class="chefs-title sectiontitle">
+      Meet our chefs!
+    </h1>
+    <div class="chefcontainer">
+      <div class="chef">
+        
+        <img src="images/chef1.png" alt="Image of Kitchen Manager/Chef Jessica Smith" class="chefimg">
+        
+        <p class="chef-name">
+          Jessica Smith
+        </p>
+        <p class="chef-info">
+          Kitchen Manager
+        </p>
+      </div>
+   
+      <div class="chef">
+        <img src="images/chef2.png" alt="Image of Head Chef Thomas Doe" class="chefimg">
+        <p class="chef-name">
+          Thomas Doe
+        </p>
+        <p class="chef-info">
+          Head Chef
+        </p>
+      </div>
+    
+    
+      <div class="chef">
+        <img src="images/chef3.png" alt="Image of Soux Chef John Adams" class="chefimg">
+        <p class="chef-name">
+          John Adams
+        </p>
+        <p class="chef-info">
+          Soux Chef
+        </p>
+      </div>
+    </div>
+  </div>
+  <img src="images/ingredients4.jpg" class="ingred-img">
+  <div class="contact" id="contact">
+    <div class="contacttitle sectiontitle">
+      Contact Us
+    </div>
+    <div class="contact-container">
+      <div class="item1">
+        <form>
+    
+          <label for="fname">
+            Name
+          </label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+    
+          <label for="email">
+            Email
+          </label>
+          <input type="text" id="email" name="email" placeholder="Your email.." required>
+    
+       
+          <label for="subject">
+            Subject
+          </label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required></textarea>
+    
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+      <div class="item2" id="locate"> 
+        FIND US
+      </div>
+      <div class="item3">
+        123 MadeUp BLVD, Wildwood Crest. New Jersey
+      </div>
+      <div class="item4">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3100.76747612435!2d-74.7934993706876!3d38.99780289434837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c0a812867748a3%3A0xa32bf1947b546aa5!2sEast%20Island!5e0!3m2!1sen!2sus!4v1711244965170!5m2!1sen!2sus" width="280" height="350"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map" alt="Embedded Google Map for Navigational Purposes"></iframe>
+      </div>
+    </div>
+  </div> 
+  <footer class="footer">
+    <div class="container">
+     <div class="row">
+        <div class="footer-col">
+          <h4>
+            The Sailor's Paradise
+          </h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">our menu</a></li>
+            <li><a href="#meetourchefs">Meet our chefs</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="#locate">Locate Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>
+            follow us
+          </h4>
+          <div class="social-links">
+            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://X.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+         </div>
+        </div>
+        <div class="footer-col">
+          <h4>
+            Coded By Nicholas O'Neill
+          </h4>
+          <div class="social-links">
+            <a href="https://github.com/nicholasoneill97" target="_blank"><i class="fab fa-github"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="restaurant.js"></script>
+  
+</body>
+</html>
