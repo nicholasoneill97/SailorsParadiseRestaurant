@@ -95,7 +95,7 @@ body{
   overflow: hidden;
   background-color: black;
   position: relative;
-  z-index: 100;
+  z-index: 99;
   width:99%;
 
 }
@@ -239,7 +239,7 @@ button {
   bottom: 0;
   left: 65%;
   width: max-content;
-  z-index: 100;
+  z-index: 99;
   display: flex;
   gap: 20px;
 }
@@ -265,7 +265,7 @@ button {
   position: absolute;
   top: 16%;
   right: 15%;
-  z-index: 100;
+  z-index: 99;
   width: 300px;
   max-width: 30%;
   display: flex;
@@ -357,7 +357,7 @@ button {
   animation: showThumbnail .5s linear 1 forwards;
 }
 .carousel.prev .list .item img{
-  z-index: 100;
+  z-index: 99;
 }
 @keyframes showThumbnail{
   from{
@@ -379,7 +379,7 @@ button {
 
 .carousel .time{
   position: absolute;
-  z-index: 1000;
+  z-index: 99;
   width: 0%;
   height: 3px;
   background-color: #ff9d00;
@@ -851,7 +851,7 @@ ul{
     position: absolute;
     top: 36%;
     right: 1%;
-    z-index: 100;
+    z-index: 99;
     width: 300px;
     max-width: 30%;
     display: flex;
@@ -921,7 +921,7 @@ ul{
     bottom: 50px;
     left: 60%;
     width: max-content;
-    z-index: 100;
+    z-index: 99;
     display: flex;
     gap: 20px;
   }
@@ -942,7 +942,7 @@ ul{
     position: absolute;
     top: 45%;
     right: 1%;
-    z-index: 100;
+    z-index: 99;
     width: 300px;
     max-width: 30%;
     display: flex;
@@ -1001,7 +1001,7 @@ ul{
     bottom: 50px;
     left: 60%;
     width: max-content;
-    z-index: 100;
+    z-index: 99;
     display: flex;
     gap: 20px;
   }
@@ -1009,7 +1009,7 @@ ul{
     position: absolute;
     top: 50%;
     right: 1%;
-    z-index: 100;
+    z-index: 99;
     width: 300px;
     max-width: 30%;
     display: flex;
@@ -1045,7 +1045,7 @@ ul{
     bottom: 50px;
     left: 70%;
     width: max-content;
-    z-index: 100;
+    z-index: 99;
     display: flex;
     gap: 20px;
   }
@@ -1062,5 +1062,26 @@ ul{
       border-color: #ccc;
   }
 }
+}
+
+/*page load animation styles*/
+
+.load {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  z-index: 100;
+  animation: fadeOut 3s;
+  animation-iteration-count: 1;
+  position: absolute;
+
+  
+}
+
+@keyframes fadeOut {
+    0% {opacity: 1; scale: 1}
+    90% {opacity: 0; scale: 1}
+    100% {opacity: 0; scale: 0}
+
 }
  
