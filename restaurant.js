@@ -78,14 +78,14 @@ function showSlider(type){
   }
 
 
-//function that removes load class from div in index.html after animation plays
+//function that removes load class from div in index.html 2 seconds after animation plays
 //function automatically runs on page load
 
 function loadTimeOut() {
     setTimeout(() => {
         const load = document.getElementById('load')
         load.classList.remove('load')
-    }, 3000)
+    }, 2000)
   }
 
   loadTimeOut()
