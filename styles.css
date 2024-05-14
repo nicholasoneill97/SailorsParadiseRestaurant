@@ -1,6 +1,22 @@
 
 
+/*fixes for positioning when nav links are clicked*/
 
+#about {
+  scroll-margin-top: 30px;
+}
+
+#menu {
+  scroll-margin-top: 30px;
+}
+
+#meetourchefs {
+  scroll-margin-top: 30px;
+}
+
+#locate {
+  scroll-margin-top: -10px;
+}
 
 
 /*main*/
@@ -28,56 +44,8 @@ body{
   
   
 }
-.buttonlink {
-  width:130px
-}
-#about {
-  background-color: #000;
-  color:#eee
-}
 
-.aboutcont {
-  padding:20px;
-  
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat (3, 1fr);
-  height:600px;
-  border-left: none;
-  border-right: none;
-  background-color: #eee;
-  border-top: #e47906;
-  border-bottom: #e47906;
-  border-style: solid;
-  border-width: 4px;
-  
-}
-.about {
-
-  color: #e47906;
-  font-size: 60px;
-  color:rgb(255, 255, 255);
-  
-  text-align: center;
-  grid-column-start: 2;
-  grid-column-end: 2;
-  padding:10px;
-
-  
-
-}
-.aboutcont p {
-  grid-column-start:3 ;
-  grid-column-end:3 ;
-  grid-row-start: 2;
-  grid-row-end: 3;
-  margin-left: 20px;
-  color:#000;
-  letter-spacing: 0.3px;
-  line-height: 3;
-  height: 400px;
-  text-transform: none;
-}
+/*pictures in between sections*/
 
 .ingred-img {
   margin-top: 60px;
@@ -236,6 +204,10 @@ body{
 }
 button {
   cursor: pointer;
+}
+
+.buttonlink {
+  width:130px
 }
 
 /* thumbnail */
@@ -454,7 +426,55 @@ button {
   }
 }
 
- 
+
+/*about section*/
+#about {
+  background-color: #000;
+  color:#eee
+}
+
+.aboutcont {
+  padding:20px;
+  
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat (3, 1fr);
+  height:600px;
+  border-left: none;
+  border-right: none;
+  background-color: #eee;
+  border-top: #e47906;
+  border-bottom: #e47906;
+  border-style: solid;
+  border-width: 4px;
+  
+}
+.about {
+
+  color: #e47906;
+  font-size: 60px;
+  color:rgb(255, 255, 255);
+  
+  text-align: center;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  padding:10px;
+
+  
+
+}
+.aboutcont p {
+  grid-column-start:3 ;
+  grid-column-end:3 ;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  margin-left: 20px;
+  color:#000;
+  letter-spacing: 0.3px;
+  line-height: 3;
+  height: 400px;
+  text-transform: none;
+}
 
 
 /* menu */
