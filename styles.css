@@ -171,7 +171,7 @@ body{
 }
 .carousel .list .item .content{
   position: absolute;
-  top: 10%;
+  top: 20%;
   width: 1140px;
   max-width: 80%;
   left: 50%;
@@ -264,7 +264,7 @@ button {
 /* arrows */
 .arrows{
   position: absolute;
-  top: 16%;
+  top: 30%;
   right: 15%;
   z-index: 99;
   width: 300px;
@@ -758,22 +758,8 @@ ul{
   background-color: #ffffff;
 }
 
-/*responsive*/
-@media(max-width: 767px){
-  .footer-col{
-    width: 50%;
-    margin-bottom: 30px;
-}
-}
-@media(max-width: 574px){
-  .footer-col{
-    width: 100%;
-}
-}
 
-
-
-/*media querries*/
+/*media queries*/
 @media screen and (max-height: 450px){
   
   .carousel .list .item .person{
@@ -834,20 +820,20 @@ ul{
     font-size: large;
     margin-bottom: 100px;
   }
-  
-  .carousel{
-    height: 100vh;
-    margin-top: -110px;
-    width: 100vw;
-    overflow: hidden;
-    position: relative;
-    border-width:1px;
-    border-style: solid;
-    border-left:none;
-    border-right: none;
-    border-top: none;
-    border-color: white;
+  .carousel .list .item .content{
+    position: absolute;
+    top: 30%;
+    width: 1140px;
+    max-width: 80%;
+    left: 55%;
+    transform: translateX(-50%);
+    padding-right: 30%;
+    box-sizing: border-box;
+    color: #fff;
+    text-shadow: 0 5px 10px #0004;
   }
+  
+  
   .arrows{
     position: absolute;
     top: 36%;
@@ -875,6 +861,14 @@ ul{
   }
 
 }
+
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+
 @media screen and (max-width: 600px) {
   .aboutcont p {
     grid-column-start:3 ;
@@ -966,6 +960,13 @@ ul{
   }
 
 }
+
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+
 @media screen and (max-width: 400px) {
   .carousel .list .item .content{
     position: absolute;
