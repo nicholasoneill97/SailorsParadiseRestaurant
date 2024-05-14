@@ -187,7 +187,7 @@ body{
 }
 .carousel .list .item .person,
 .carousel .list .item .topic{
-  font-size: 4em;
+  font-size: 3em;
   font-weight: bold;
   line-height: 1.3em;
 }
@@ -982,7 +982,7 @@ ul{
   }
   .carousel .list .item .title{
     font-weight: bold;
-    letter-spacing: 10px;
+    letter-spacing: 3px;
   }
   .carousel .list .item .person{
     font-size: 1em;
