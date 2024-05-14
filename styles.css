@@ -5,6 +5,10 @@
 
 /*main*/
 
+html {
+  scroll-behavior: smooth;
+}
+
 
 body{
   padding: 0;
