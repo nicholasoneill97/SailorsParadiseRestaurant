@@ -69,13 +69,13 @@ body{
   position: relative;
   z-index: 99;
   width:99%;
-
+  border-bottom-right-radius: 10px;
 }
 
 
 .topnav #myLinks {
   display: none;
-  
+  text-align: center;
 }
 
 
@@ -87,7 +87,7 @@ body{
   font-size: 17px;
   display: block;
   margin: auto;
-  
+  transition: 1s;
 }
 
 
@@ -97,6 +97,7 @@ body{
   position: absolute;
   right: 0;
   top: 0;
+  transition: 1s;
 }
 
 
