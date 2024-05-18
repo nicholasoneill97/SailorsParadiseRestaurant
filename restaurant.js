@@ -77,6 +77,19 @@ function showSlider(type){
     }
   }
 
+//loops through elements with nav-link class then adds event listener that triggers function on click
+  const links = document.getElementsByClassName('nav-link')
+  for (i = 0; i < links.length; i++) {
+    var navLinks = links[i]
+    navLinks.addEventListener('click', closeNav)
+  }
+
+//function that handles closing the nav bar after a nav link is clicked 
+  function closeNav() {
+    var x = document.getElementById("myLinks");
+    x.style.display = "none"
+  }
+
 
 //function that removes load class from div in index.html 2 seconds after animation plays
 //function automatically runs on page load
