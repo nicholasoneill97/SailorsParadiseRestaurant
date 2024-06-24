@@ -66,30 +66,52 @@ function showSlider(type){
     }, timeAutoNext)
 };
 
-//function that handles the nav bar links appearing or being hidden
+//function that handles the nav bar links appearing or being hidden on both nav bars
 
-  function myFunction() {
-    var x = document.getElementById("myLinks");
-    if (x.style.display === "block") {
-      x.style.display = "none";
+  function myNavFunction() {
+    var links = document.getElementById("myLinks");
+    if (links.style.display === "block") {
+      links.style.display = "none";
     } else {
-      x.style.display = "block";
+      links.style.display = "block";
     }
   }
 
-//loops through elements with nav-link class then adds event listener that triggers function on click
+
+  function mySecondNavFunction() {
+    var secondNavLinks = document.getElementById("Second-Nav-Links");
+    if (secondNavLinks.style.display === "block") {
+      secondNavLinks.style.display = "none";
+    } else {
+      secondNavLinks.style.display = "block";
+    }
+  }
+
+//loops through links, when link is clicked, closeNav function is triggered
+
   const links = document.getElementsByClassName('nav-link')
   for (i = 0; i < links.length; i++) {
     var navLinks = links[i]
     navLinks.addEventListener('click', closeNav)
   }
 
-//function that handles closing the nav bar after a nav link is clicked 
+//function that closes nav bars
+
   function closeNav() {
-    var x = document.getElementById("myLinks");
-    x.style.display = "none"
+    var links = document.getElementById("myLinks");
+    var secondNavLinks = document.getElementById("Second-Nav-Links")
+    links.style.display = "none"
+    secondNavLinks.style.display = "none"
   }
 
+//event listener to make second nav close when it disappears
+  window.addEventListener('scroll', function(e) {
+    
+    const scrollPosition = window.scrollY
+    if (scrollPosition < 600) {
+    closeNav()
+    }
+   });
 
 //function that removes load class from div in index.html 2 seconds after animation plays
 //function automatically runs on page load
