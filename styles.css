@@ -113,6 +113,85 @@ body{
   color: #e47906;
 }
 
+/*following nav hamburger menu*/
+
+.following-nav {
+  position: sticky; 
+  opacity: 0;
+  top: 5%;
+  left: 80%;
+  z-index: 500;
+  animation: fadeIn linear forwards;
+  animation-timeline: view();
+  animation-range-start: 110vh;
+  animation-range-end: 115vh;
+  width: 15%;
+  background-color: #00000069;
+  backdrop-filter: blur(70px);
+}
+
+.following-nav .icon {
+  position: absolute;
+  left: 95%;
+  top: 0;
+  transition: 1s;
+  color: #bd8141;
+  background-color: rgb(0, 0, 0);
+  font-size: 22px;
+  padding: 1px 10px;
+  border: 1px rgb(28, 25, 25) solid;
+  border-radius: 5px;
+}
+
+.following-nav .icon:hover {
+  color: rgb(211, 126, 21);
+  background-color: #1e1d1d;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0; display: none;}
+  to {opacity: 1; display: block;}
+}
+
+.following-nav #Second-Nav-Links {
+  display: none;
+  text-align: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 30px;
+  background-color: rgba(39, 37, 37, 0.982);
+  backdrop-filter: blur(10px);
+  color:#000;
+  animation: fadeIn 1s;
+  animation-timeline: view();
+  animation-range-start: 150vh;
+  animation-range-end: 155vh;
+  border-radius: 10px;
+  border-top-right-radius: normal;
+  border: 1px solid black;
+  position: fixed;
+}
+
+.following-nav #Second-Nav-Links{
+    animation: fadeIn 1s ease-in;
+}
+
+
+.following-nav #Second-Nav-Links a {
+  padding: 14px 12px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+  margin: auto;
+  transition: 1s;
+  color: #ec8a3b;
+  animation: none;
+}
+
+.following-nav #Second-Nav-Links a:hover {
+  color:#ffffff;
+}
+
 
 
 /*slider*/
@@ -1111,4 +1190,20 @@ ul{
     100% {opacity: 0; scale: 0}
 
 }
- 
+
+/*following nav queries*/
+
+@media screen and (max-width: 1030px) {
+  .following-nav {
+    left: 60%;
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .following-nav {
+    left: 10%;
+    top: 3%;
+    width: 80%;
+  }
+}
