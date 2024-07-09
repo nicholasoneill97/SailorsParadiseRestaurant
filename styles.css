@@ -1209,6 +1209,7 @@ ul{
   }
   .following-nav #Second-Nav-Links {
     width: 40%;
+    left: 0;
     margin: auto;
   }
 }
