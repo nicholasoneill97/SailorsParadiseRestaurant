@@ -1203,9 +1203,9 @@ ul{
 
 @media screen and (max-width: 600px) {
   .following-nav {
-    left: 10%;
+    left: 40%;
     top: 3%;
-    width: 40%;
+    width: 50%;
   }
   .following-nav #Second-Nav-Links {
     width: 100%;
@@ -1213,6 +1213,7 @@ ul{
     right: 5%;
   }
 }
+
 @media screen and (max-height: 500px) {
   .following-nav {
     display: none;
