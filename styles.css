@@ -1203,14 +1203,14 @@ ul{
 
 @media screen and (max-width: 600px) {
   .following-nav {
-    left: 40%;
-    top: 3%;
-    width: 50%;
+    left: 55%;
+    top: 10%;
+    width: 30%;
   }
   .following-nav #Second-Nav-Links {
-    width: 100%;
+    width: 200px;
     margin: auto;
-    right: 5%;
+    right: 0%;
   }
 }
 
