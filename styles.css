@@ -1208,3 +1208,8 @@ ul{
     width: 80%;
   }
 }
+@media screen and (max-height: 500px) {
+  .following-nav {
+    display: none;
+  }
+}
