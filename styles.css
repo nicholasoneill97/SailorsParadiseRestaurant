@@ -1199,10 +1199,6 @@ ul{
     left: 60%;
     width: 30%;
   }
-  .following-nav #Second-Nav-Links {
-    width: 70%;
-    margin: auto;
-  }
 }
 
 @media screen and (max-width: 600px) {
@@ -1210,6 +1206,10 @@ ul{
     left: 10%;
     top: 3%;
     width: 80%;
+  }
+  .following-nav #Second-Nav-Links {
+    width: 40%;
+    margin: auto;
   }
 }
 @media screen and (max-height: 500px) {
