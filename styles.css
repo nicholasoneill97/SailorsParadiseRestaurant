@@ -1205,11 +1205,10 @@ ul{
   .following-nav {
     left: 10%;
     top: 3%;
-    width: 80%;
+    width: 40%;
   }
   .following-nav #Second-Nav-Links {
-    width: 40%;
-    left: 0;
+    width: 100%;
     margin: auto;
   }
 }
